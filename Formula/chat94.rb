@@ -1,21 +1,11 @@
 class Chat94 < Formula
   desc "Encrypted terminal client for OpenClaw agents"
   homepage "https://chat94.com"
-  license "MIT"
+  license "GPL-3.0-or-later"
 
-  # No tagged release yet. Until the first release tarball is published,
-  # users must install with `--HEAD`:
-  #
-  #   brew install --HEAD chat94/tap/chat94
-  #
-  # When you cut v0.1.0:
-  #   1. `git tag v0.1.0 && git push --tags` in chat94/chat94-cli
-  #   2. Uncomment the stable block below
-  #   3. Replace the sha256 with: `curl -sL <url> | shasum -a 256`
-  #
-  # url "https://github.com/chat94/chat94-cli/archive/refs/tags/v0.1.0.tar.gz"
-  # sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-  # version "0.1.0"
+  url "https://github.com/chat94/chat94-cli/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "34b31d7caaa8de4d2c1d1c8725f9cfb2a78e26b0441140a9e75445588426dc9f"
+  version "0.1.0"
 
   head "https://github.com/chat94/chat94-cli.git", branch: "main"
 
