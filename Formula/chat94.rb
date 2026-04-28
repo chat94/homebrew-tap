@@ -3,9 +3,9 @@ class Chat94 < Formula
   homepage "https://chat94.com"
   license "GPL-3.0-or-later"
 
-  url "https://github.com/chat94/chat94-cli/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "040419f04d38d5c26b33bdee67dc8faa212f70bbb9e499159dfb0615be63b887"
-  version "0.1.2"
+  url "https://github.com/chat94/chat94-cli/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "6221ed8d02b9d33df7a2685557df3fb00f0675ec92ea403dbf0556985486494d"
+  version "0.1.3"
 
   head "https://github.com/chat94/chat94-cli.git", branch: "main"
 
