@@ -2,27 +2,27 @@ class Chat4000 < Formula
   desc "Encrypted terminal client for OpenClaw agents"
   homepage "https://chat4000.com"
   license "GPL-3.0-or-later"
-  version "1.0.1"
+  version "1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.1/chat4000-1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ed31d6c5f1a6f2c8e128f390f3caa6c839b5aef54b3539ec3ed0b785b89eee7d"
+      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.0/chat4000-1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "75fae870778fab266fa6d1fb0d6ac29872741456223b13ef5e7d6461b199a682"
     end
     on_intel do
-      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.1/chat4000-1.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "97302e17f2ec4aac9a17308a2facf80f0fd4e6ef58a12df568023d7116e464ad"
+      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.0/chat4000-1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4e8afe1538bef322871efba614a3114c059a6828c7696c5abae65f4ecbe9ddfe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.1/chat4000-1.0.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "89c60a40f165f6794c2af9a0ddd1ce6ea85dd4a087636b083f8ca44ba0516a3d"
+      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.0/chat4000-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5585e4b343a20ba7cc8a5be14ae46f7bba864b76dc576ffe79888b22fe19d5ff"
     end
     on_intel do
-      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.1/chat4000-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8696628d7d0716a5d90a7492c684fb361e43366de822c8a27cc4d6fccd3b704b"
+      url "https://github.com/chat4000/chat4000-cli/releases/download/v1.0.0/chat4000-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a89fd718c06a0299fdfa08941b0a5b18d0e125eb8f8196154b5e09f35cc82c3c"
     end
   end
 
